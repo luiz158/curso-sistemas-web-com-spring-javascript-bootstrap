@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xml>
 <Context>
+<!-- 
     <Resource name="jdbc/brewerDB" auth="Container" 
             factory="org.apache.naming.factory.BeanFactory"
             type="com.mchange.v2.c3p0.ComboPooledDataSource"
@@ -8,6 +9,34 @@
             jdbcUrl="jdbc:mysql://localhost/brewer?useSSL=false"
             user="root"
             password="root" 
+            initialPoolSize="5" 
+            minPoolSize="5"
+            maxPoolSize="5" 
+     />
+     
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/novocaixa">
+<Resource auth="Container"
+      name="novocaixaDatasource"
+      type="javax.sql.DataSource"
+      driverClassName="org.postgresql.Driver"
+      url="jdbc:postgresql://avmbase:5432/avmultimo"
+      username="augusto"
+      password="senha"
+      maxActive="30"
+      maxIdle="3"
+      maxWait="-1"/>
+</Context>
+     
+-->
+    <Resource name="jdbc/brewerDB"
+    		auth="Container" 
+            factory="org.apache.naming.factory.BeanFactory"
+            type="com.mchange.v2.c3p0.ComboPooledDataSource"
+            driverClass="org.postgresql.Driver"
+            jdbcUrl="jdbc:postgresql://ns3.augusto.eti.br:5432/brewer"
+            user="augusto"
+            password="senha" 
             initialPoolSize="5" 
             minPoolSize="5"
             maxPoolSize="5" 

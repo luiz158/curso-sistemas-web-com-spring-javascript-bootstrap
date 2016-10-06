@@ -19,6 +19,7 @@
 		<maven-compiler-pluging.version>3.2</maven-compiler-pluging.version>
 		<flyway-maven-plugin.version>4.0.2</flyway-maven-plugin.version>
 		<mysql-connector-java.version>5.1.39</mysql-connector-java.version>
+		<postgresql-driver.version>9.1-901-1.jdbc4</postgresql-driver.version>
 
 		<!-- Spring MVC -->
 		<spring-framework.version>4.3.0.RELEASE</spring-framework.version>
@@ -69,7 +70,8 @@
 				<artifactId>flyway-maven-plugin</artifactId>
 				<version>${flyway-maven-plugin.version}</version>
 				<configuration>
-					<driver>com.mysql.jdbc.Driver</driver>
+					<!-- <driver>com.mysql.jdbc.Driver</driver> -->
+					<driver>"org.postgresql.Driver</driver>
 				</configuration>
 			</plugin>
 		</plugins>
@@ -178,13 +180,51 @@
 		</dependency>
 		
 		<!-- MySQL Driver -->
+		<!-- 
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<version>${mysql-connector-java.version}</version>
 			<scope>provided</scope>
 		</dependency>
+		 -->
 		
+		<!-- Postgresql Driver -->
+		<!-- https://mvnrepository.com/artifact/postgresql/postgresql -->
+		<!--
+		<dependency>
+    		<groupId>postgresql</groupId>
+    		<artifactId>postgresql</artifactId>
+    		<version>9.4.1208-jdbc42-atlassian-hosted</version>
+		</dependency>
+		-->
+		
+		<!-- https://mvnrepository.com/artifact/postgresql/postgresql -->
+		<!--
+		<dependency>
+		    <groupId>postgresql</groupId>
+		    <artifactId>postgresql</artifactId>
+		    <version>9.4.1208-atlassian-hosted</version>
+		</dependency>
+		-->
+		
+		
+		<!-- https://mvnrepository.com/artifact/postgresql/postgresql -->
+		<!--
+		<dependency>
+		    <groupId>postgresql</groupId>
+		    <artifactId>postgresql</artifactId>
+		    <version>9.3-1102.jdbc4</version>
+		</dependency>
+		-->
+
+		<!-- https://mvnrepository.com/artifact/postgresql/postgresql -->
+		<dependency>
+		    <groupId>postgresql</groupId>
+		    <artifactId>postgresql</artifactId>
+		    <version>${postgresql-driver.version}</version>
+		</dependency>
+				
 		<!-- Spring Data JPA -->
 		<dependency>
 		    <groupId>org.springframework.data</groupId>

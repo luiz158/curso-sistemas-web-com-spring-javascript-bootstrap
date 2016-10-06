@@ -35,11 +35,19 @@ public class JPAConfig {
 	@Bean
 	public JpaVendorAdapter jpaVendorAdapter() {
 		HibernateJpaVendorAdapter adapter = new HibernateJpaVendorAdapter();
-		adapter.setDatabase(Database.MYSQL);
+		adapter.setDatabase(Database.POSTGRESQL);
 		adapter.setShowSql(false);
 		adapter.setGenerateDdl(false);
-		adapter.setDatabasePlatform("org.hibernate.dialect.MySQLDialect");
+		adapter.setDatabasePlatform("org.hibernate.dialect.PostgreSQL9Dialect");
 		return adapter;
+		
+		
+//		HibernateJpaVendorAdapter adapter = new HibernateJpaVendorAdapter();
+//		adapter.setDatabase(Database.MYSQL);
+//		adapter.setShowSql(false);
+//		adapter.setGenerateDdl(false);
+//		adapter.setDatabasePlatform("org.hibernate.dialect.MySQLDialect");
+//		return adapter;
 	}
 	
 	@Bean
