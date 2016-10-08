@@ -1,3 +1,7 @@
+
+#create database brewer DEFAULT CHARACTER SET utf8 DEFAULT COLLATE utf8_general_ci;
+
+
 CREATE TABLE estilo (
     codigo BIGINT(20) PRIMARY KEY AUTO_INCREMENT,
     nome VARCHAR(50) NOT NULL
