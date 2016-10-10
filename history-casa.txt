@@ -1,0 +1,1000 @@
+   18  ls
+   19  ls -ltra pcc
+   20  git history
+   21  git log
+   22  git commit -m "Subtree merged in pcc"
+   23  git status
+   24  git log
+   25  ls -ltra
+   26  git log pcc/version-2013-inicio 
+   27  ls
+   28  ls pcc/
+   29  ls pcc/src/
+   30  ls pcc/src/META-INF/
+   31  ls pcc/src/br/org/avm/colonia/HomologacaoSorteio.java 
+   32  git log pcc/src/br/org/avm/colonia/HomologacaoSorteio.java 
+   33  ls
+   34  ls -als
+   35  git branch -a
+   36  git tag
+   37  git remote
+   38  git remote -vv
+   39  git branch -vv
+   40  git log
+   41  git log src/br/org/avm/colonia/HomologacaoSorteio.java 
+   42  git branch -a
+   43  git branch -vv
+   44  git tag
+   45  git status
+   46  ls
+   47  pwd
+   48  cd ..
+   49  history > history-subtree-pcc.txt
+   50  ls
+   51  vi history-subtree-pcc.txt 
+   52  ls
+   53  cd test/
+   54  ls
+   55  cd pcc
+   56  ls
+   57  pwd
+   58  cd ..
+   59  pwd
+   60  gitk
+   61  ls -tlra
+   62  ls -ltra
+   63  cd ..
+   64  pwd
+   65  ls -ltra
+   66  exit
+   67  df -h
+   68  sudo -i
+   69  exit
+   70  cd /avm/home/leonardo/g
+   71  cd novoTest/
+   72  git status
+   73  git diff
+   74  git commit -am 'git subtree ----'
+   75  git push
+   76  git status
+   77  exit
+   78  sudo -i
+   79  history
+   80  exit
+   81  ssh root@ns3.augusto.eti.br
+   82  history
+   83  exit
+   84  pwd
+   85  cd
+   86  cd eclipse-dicas/
+   87  git pull
+   88  history
+   89  exit
+   90  ls -ltra /opt/gpg/
+   91  cd /avm/home/leonardo/g
+   92  cd xx
+   93  ls -ltra
+   94  pwd
+   95  cd xxx/
+   96  ls
+   97  cd augusto-avm/
+   98  git log --pretty=fuller -1
+   99  git status
+  100  git log --abbrev-commit --pretty=oneline
+  101  git lol
+  102  cd .
+  103  cd ..
+  104  cd augusto-meu/
+  105  git status
+  106  git lol
+  107  cd ../augusto-avm/
+  108  git lol
+  109  cd ..
+  110  cd avm
+  111  git lol
+  112  git status
+  113  git diff master..version-2013-inicio
+  114  git fetch origin
+  115  git remmote -a
+  116  git remote -a
+  117  git remote -vv
+  118  git status
+  119  git lol
+  120  git status
+  121  git checkout master
+  122  git merge version-2013-inicio
+  123  git lol
+  124  git push origin master
+  125  sudo -i
+  126  vi .git/config 
+  127  git push origin master
+  128  git lol
+  129  git fetch --all
+  130  git lol
+  131  git push --all
+  132  git push origin --all
+  133  git status
+  134  git branch -vv
+  135  git tag
+  136  git tag -a release-2016-09-25-2359 -m 'release em virtude de novo build.... '
+  137  git show release-2016-09-25-2359
+  138  git push origin release-2016-09-25-2359
+  139  git tags
+  140  git tag
+  141  git lol
+  142  git tab -l "release-*"
+  143  git tag -l "release-*"
+  144  git tab
+  145  git tag
+  146  git log --oneline --decorate --graph --all
+  147  git fetch --all
+  148  git log --oneline --decorate --graph --all
+  149  git checkout master
+  150  git merge version-2013-inicio
+  151  git status
+  152  git push origin master
+  153  history
+  154  git status
+  155  git log --oneline --decorate --graph --all
+  156  cd ..
+  157  cd seap
+  158  git status
+  159  git tag
+  160  git log --oneline --decorate --graph --all
+  161  git fetch --all
+  162  git log --oneline --decorate --graph --all
+  163  git status
+  164  git checkout master
+  165  git status
+  166  git log --oneline --decorate --graph --all
+  167  git merge version-2013-inicio
+  168  git status
+  169  git log --oneline --decorate --graph --all
+  170  git push origin master
+  171  vi .git/config 
+  172  git push origin master
+  173  git push --all
+  174  git push origin --all
+  175  git log --oneline --decorate --graph --all
+  176  git tag -a release-2016-09-25-2359 -m 'release em virtude de novo build.... '
+  177  git log --oneline --decorate --graph --all
+  178  git push origin release-2016-09-25-2359
+  179  git log --oneline --decorate --graph --all
+  180  git push origin --tags
+  181  git status
+  182  git log --oneline --decorate --graph --all
+  183  cd ..
+  184  cd cef
+  185  ls
+  186  git status
+  187  git log --oneline --decorate --graph --all
+  188  git fetch --all
+  189  git log --oneline --decorate --graph --all
+  190  git checkout master
+  191  git status
+  192  git log --oneline --decorate --graph --all
+  193  git status
+  194  git merge version-2013-inicio
+  195  git status
+  196  git log --oneline --decorate --graph --all
+  197  git tag -a release-2016-09-25-2359 -m 'release em virtude de novo build.... '
+  198  git push origin --all
+  199  vi .git/config 
+  200  git push
+  201  git status
+  202  git log --oneline --decorate --graph --all
+  203  git push origin --all
+  204  git log --oneline --decorate --graph --all
+  205  git push origin release-2016-09-25-2359
+  206  git push origin --tags
+  207  git push --all
+  208  git status
+  209  cd ..
+  210  cd pcc
+  211  git status
+  212  git log --oneline --decorate --graph --all
+  213  git fetch --all
+  214  git status
+  215  git log --oneline --decorate --graph --all
+  216  git checkout master
+  217  git status
+  218  git log
+  219  git log --oneline --decorate --graph --all
+  220  git merge version-2013-inicio
+  221  git status
+  222  git log --oneline --decorate --graph --all
+  223  git push --all
+  224  vi .git/config 
+  225  git push --all
+  226  git status
+  227  git log --oneline --decorate --graph --all
+  228  git tag -a release-2016-09-25-2359 -m 'release em virtude de novo build.... '
+  229  git push origin --tags
+  230  git push origin release-2016-09-25-2359
+  231  git status
+  232  git log --oneline --decorate --graph --all
+  233  cd ..
+  234  cd xxx/
+  235  cd augusto-avm/
+  236  git status
+  237  git log --oneline --decorate --graph --all
+  238  git tag -a release-2016-09-25-2359 -m 'release em virtude de novo build.... '
+  239  git push origin release-2016-09-25-2359
+  240  vi .git/config 
+  241  git staus
+  242  git push origin release-2016-09-25-2359
+  243  git status
+  244  git fetch --all
+  245  git push --all
+  246  git push origin --tags
+  247  git status
+  248  history
+  249  git pussh --all --tags
+  250  git push --all --tags
+  251  git push --tags
+  252  git pussh --all
+  253  git push --all
+  254  git fetch --all
+  255  git log --oneline --decorate --graph --all
+  256  cd ../augusto-meu/
+  257  git status
+  258  git fetch --all
+  259  git log --oneline --decorate --graph --all
+  260  git tag -a release-2016-09-25-2359 -m 'release em virtude de novo build.... '
+  261  git push --all
+  262  git pussh --tags
+  263  git push --tags
+  264  vi .git/config 
+  265  git push --tags
+  266  git push --all
+  267  git status
+  268  git log --oneline --decorate --graph --all
+  269  cd ..
+  270  cd avm
+  271  git push --all
+  272  git push --tags
+  273  cd ..
+  274  cd seap
+  275  git push --tags
+  276  git push --all
+  277  git fetch --tags
+  278  cd ..
+  279  cd cef
+  280  git push --all
+  281  git push --tags
+  282  git fetch --tags
+  283  git fetch --all
+  284  cd ..
+  285  cd pcc
+  286  git fetch --all
+  287  git fetch --tags
+  288  git push --all
+  289  git push --tags
+  290  cd ..
+  291  ls
+  292  cd txt-avm/
+  293  git status
+  294  vi .git/config 
+  295  git log --oneline --decorate --graph --all
+  296  git tag -a release-2016-09-25-2359 -m 'release em virtude de novo build.... '
+  297  git push --all
+  298  vi .git/config 
+  299  git fetch --all
+  300  git fetch --tags
+  301  git status
+  302  git log --oneline --decorate --graph --all
+  303  git diff ffd27e5..3a44149
+  304  git status
+  305  git log --oneline --decorate --graph --all
+  306  git push --all
+  307  git log --oneline --decorate --graph --all
+  308  git merge
+  309  git log --oneline --decorate --graph --all
+  310  git push --all
+  311  git push --tags
+  312  git fetch --tags
+  313  git fetch --all
+  314  git status
+  315  git log --oneline --decorate --graph --all
+  316  cd ..
+  317  cd avm-docs/
+  318  git status
+  319  git log --oneline --decorate --graph --all
+  320  git fetch --all
+  321  git checkout master 
+  322  git status
+  323  git log --oneline --decorate --graph --all
+  324  git merge version-2013-inicio
+  325  git log --oneline --decorate --graph --all
+  326  git tag -a release-2016-09-25-2359 -m 'release em virtude de novo build.... '
+  327  git push --all
+  328  vi .git/config 
+  329  git push --all
+  330  git push --tags
+  331  git fetch --all
+  332  git fetch --tags
+  333  git status
+  334  git log --oneline --decorate --graph --all
+  335  cd ..
+  336  cd cx-analise/
+  337  git status
+  338  git log --oneline --decorate --graph --all
+  339  vi .git/config 
+  340  git fetch --tags
+  341  git fetch --all
+  342  git status
+  343  git log --oneline --decorate --graph --all
+  344  git tag -a release-2016-09-25-2359 -m 'release em virtude de novo build.... '
+  345  git push --all
+  346  git push --tags
+  347  git status
+  348  git log --oneline --decorate --graph --all
+  349  cd ..
+  350  cd novocaixa-rep
+  351  git status
+  352  git log --oneline --decorate --graph --all
+  353  git fetch --all
+  354  git status
+  355  git checkout master 
+  356  vi .git/config 
+  357  git status
+  358  git log --oneline --decorate --graph --all
+  359  git merge version-2013-inicio
+  360  git log --oneline --decorate --graph --all
+  361  git status
+  362  git push --tags
+  363  git fetch --tags
+  364  git push --all
+  365  git log --oneline --decorate --graph --all
+  366  git tag -a release-2016-09-25-2359 -m 'release em virtude de novo build.... '
+  367  git push --all
+  368  git push --tags
+  369  git fetch --tags
+  370  git fetch --all
+  371  git status
+  372  git log --oneline --decorate --graph --all
+  373  cd ../main-novocaixa-compile/
+  374  git status
+  375  git diff
+  376  git staus
+  377  git status
+  378  git commiit -am 'linha em branco no final... '
+  379  git commit -am 'linha em branco no final... '
+  380  git push
+  381  vi .git/config 
+  382  git push
+  383  git status
+  384  git fetch --all
+  385  git fetch --tags
+  386  git log --oneline --decorate --graph --all
+  387  git status
+  388  git checkout master 
+  389  git merge version-2013-inicio
+  390  git log --oneline --decorate --graph --all
+  391  git tag -a release-2016-09-25-2359 -m 'release em virtude de novo build.... '
+  392  git log --oneline --decorate --graph --all
+  393  git push --tags
+  394  git push --all
+  395  git fetch --tags
+  396  git fetch --all
+  397  git status
+  398  git log --oneline --decorate --graph --all
+  399  cd ../model-novocaixa/
+  400  git status
+  401  git fetch --all
+  402  git log --oneline --decorate --graph --all
+  403  git checkout master 
+  404  git status
+  405  git merge version-2013-inicio
+  406  git status
+  407  git log --oneline --decorate --graph --all
+  408  git push --all
+  409  git push --tags
+  410  git fetch --all
+  411  git fetch --tags
+  412  git status
+  413  git log --oneline --decorate --graph --all
+  414  cd ../social-t
+  415  cd ../social-tomcat/
+  416  git status
+  417  git fetch --all
+  418  git fetch --tags
+  419  git status
+  420  git log --oneline --decorate --graph --all
+  421  git checkout master 
+  422  git status
+  423  git log --oneline --decorate --graph --all
+  424  vi .git/config 
+  425  git merge version-2013-inicio
+  426  git status
+  427  git push --all
+  428  git diff
+  429  git status
+  430  git fetch --all
+  431  git status
+  432  git push --all
+  433  git pull
+  434  git status
+  435  git log --oneline --decorate --graph --all
+  436  git push --all
+  437  git push --tags
+  438  git fetch --all
+  439  git fetch --tags
+  440  git status
+  441  git log --oneline --decorate --graph --all
+  442  git diff 0593a6b..58f168b
+  443  git diff 0593a6b..cdb70a6
+  444  git log --oneline --decorate --graph --all
+  445  git log 
+  446  git log --oneline --decorate --graph --all
+  447  vi build.xml avm.pro 
+  448  ls *.pro
+  449  ls *.xml
+  450  vi build*.xml
+  451  git log --oneline --decorate --graph --all
+  452  git tag -a release-2016-09-25-2359 -m 'release em virtude de novo build.... '
+  453  git push --tags
+  454  git push --all
+  455  git fetch --all
+  456  git pull
+  457  git status
+  458  git log --oneline --decorate --graph --all
+  459  git diff 0593a6b..cdb70a6 view/Associado.xhtml
+  460  git diff 0593a6b..cdb70a6 view/Contrato.xhtml
+  461  git diff 0593a6b..a56daaa view/Contrato.xhtml
+  462  vim view/Contrato.xhtml
+  463  ls -ltra
+  464  ls *.sh
+  465  cat copiar-xhtml.sh 
+  466  scp root@ns3.augusto.eti.br:/java/tomcat/apache-tomcat-6.0.35/webapps/avm/view/Contrato.xhtml /tmp/
+  467  scp root@ns3.augusto.eti.br:/java/tomcat/apache-tomcat-6.0.35/webapps/avm/Contrato.xhtml /tmp/
+  468  scp root@ns3.augusto.eti.br:/java/tomcat/apache-tomcat-6.0.35/webapps/avm/Associado.xhtml /tmp/
+  469  diff view/Contrato.xhtml /tmp/Contrato.xhtml 
+  470  diff view/Associado.xhtml /tmp/Associado.xhtml 
+  471  git status
+  472  git push --all
+  473  git push --tags
+  474  git fetch --all
+  475  git fetch --tags
+  476  git status
+  477  git log --oneline --decorate --graph --all
+  478  cd ..
+  479  cd main-novocaixa
+  480  git status
+  481  git log --oneline --decorate --graph --all
+  482  git fetch --all
+  483  git fetch --tags
+  484  git push --all
+  485  git push --tags
+  486  git status
+  487  git log --oneline --decorate --graph --all
+  488  git status
+  489  git log --oneline --decorate --graph --all
+  490  cd ..
+  491  cd novoTest/
+  492  git status
+  493  git fetch --tags
+  494  git fetch --all
+  495  git push --tags
+  496  git push --all
+  497  git log --oneline --decorate --graph --all
+  498  git commit -am 'atualizando tag para release-2016-09-25-2359 em todas as pastas --- e master tambem.... '
+  499  git push
+  500  git status
+  501  git log --oneline --decorate --graph --all
+  502  git tag
+  503  git tag --all
+  504  git remote -vv
+  505  git branch -vv
+  506  git push --all
+  507  git push --tags
+  508  git fetch --all
+  509  git fetch --tags
+  510  git push origin --tags
+  511  git fetch origin --tags
+  512  git fetch origin --branchs
+  513  git fetch origin --branch
+  514  git status
+  515  git log --oneline --decorate --graph --all
+  516  git status
+  517  history
+  518  exit
+  519  cd eclipse-dicas/
+  520  git pull
+  521  git status
+  522  git dif
+  523  git diff
+  524  git status
+  525  ls -aals algaworks-curso-javascript,txt 
+  526  ls -als docker/
+  527  ls -als estudos-git/
+  528  git log --oneline --decorate --graph --all
+  529  git fetch --all
+  530  git log --oneline --decorate --graph --all
+  531  git merge
+  532  git dif
+  533  git diff
+  534  git diff algaworks-curso-javascript,txt
+  535  vi algaworks-curso-javascript,txt 
+  536  git diff
+  537  git push
+  538  git pull
+  539  git diff
+  540  ls -als docker/
+  541  git status
+  542  mv docker /tmp/
+  543  mv estudos-git /tmp/
+  544  git status
+  545  git push
+  546  git pull
+  547  git fetch --all
+  548  git status
+  549  git log --oneline --decorate --graph --all
+  550  git merge
+  551  git pull
+  552  git status
+  553  git commit -am 'arquivo curso javascript com diferencas... '
+  554  ls -als
+  555  sudo -i
+  556  git commit -am 'arquivo curso javascript com diferencas... '
+  557  git log --oneline --decorate --graph --all
+  558  git push
+  559  git merge
+  560  git diff
+  561  git push --all
+  562  git log --oneline --decorate --graph --all
+  563  ls -ltra /tmp/
+  564  vi algaworks-curso-javascript,txt 
+  565  git status
+  566  ls -ltra /tmp/
+  567  diff /tmp/docker/criar-docker-spring-boot-mysql.txt docker/criar-docker-spring-boot-mysql.txt 
+  568  dir /tmp/estudos-git/onde-clonar.txt estudos-git/onde-clonar.txt 
+  569  git status
+  570  cp -a /tmp/estudos-git .
+  571  cp -a /tmp/docker .
+  572  git status
+  573  git diff
+  574  ls -tlra
+  575  ls -ltra ..
+  576  ls -tlra
+  577  git status
+  578  git diff
+  579  ls -ltra
+  580  df -h
+  581  ls -ltra
+  582  ls -ltra .git/
+  583  cat .gitignore 
+  584  ls -tlra .gitignore 
+  585  cat .gitignore 
+  586  ls -ltra
+  587  pwd
+  588  ls -ltra
+  589  git status
+  590  git log --oneline --decorate --graph --all
+  591  git branch -vv
+  592  git remote -vv
+  593  git tag
+  594  ls -ltra
+  595  exit
+  596  ssh root@ns3.augusto.eti.br
+  597  exit
+  598  sudo -i
+  599  exit
+  600  pwd
+  601  mkdir petclinic
+  602  cd petclinic/
+  603  git clone git@github.com:luiz158/spring-petclinic.git
+  604  ls
+  605  cd spring-petclinic/
+  606  ls
+  607  git remote -vv
+  608  git pull https://github.com/spring-projects/spring-petclinic
+  609  git push
+  610  git status
+  611  git remote add upstream https://github.com/spring-projects/spring-petclinic
+  612  git remote -vv
+  613  git fetch upstream
+  614  git fetch --all
+  615  git status
+  616  git log --oneline --decorate --graph --all
+  617  git status
+  618  git remote add jdubois https://github.com/jdubois/spring-petclinic
+  619  git fetch jdubois
+  620  git fetch all
+  621  git fetch --all
+  622  git status
+  623  git log --oneline --decorate --graph --all
+  624  git fetch jdubois --all
+  625  git fetch --all
+  626  git fetch --tags
+  627  git log --oneline --decorate --graph --all
+  628  git diff 46fa288..05a60b7
+  629  git branch -vv
+  630  git branch -v
+  631  git branch -a
+  632  git log --oneline --decorate --graph --all
+  633  git push origin --all
+  634  git push --all
+  635  git push --tags
+  636  git fetch --tags
+  637  git status
+  638  ls -ltra
+  639  du -sh
+  640  git for-each-ref --sort=-committerdate refs/heads/ --format='%(committerdate) %(authorname) %(refname:short)'
+  641  git diff --check
+  642  git diff --cached
+  643  git diff --staged
+  644  git checkout jdubois/master
+  645  git checkout -b jdubois jdubois/master
+  646  git branch -a
+  647  git branch -vv
+  648  git push --all
+  649  git push origin jdubois
+  650  git status
+  651  git branch -a
+  652  git diff
+  653  git checkout master
+  654  git status
+  655  git branch -a
+  656  git log --oneline --decorate --graph --all
+  657  cd ..
+  658  git clone git@github.com:luiz158/thymeleafexamples-petclinic.git
+  659  cd thymeleafexamples-petclinic/
+  660  pwd
+  661  ls
+  662  git remote -vv
+  663  git add remote thymeleaf https://github.com/thymeleaf/thymeleafexamples-petclinic
+  664  git remote add thymeleaf https://github.com/thymeleaf/thymeleafexamples-petclinic
+  665  git remote -vv
+  666  git remote fetch -all
+  667  git remote fetch --all
+  668  git fetch --all
+  669  git push --all
+  670  git branch -a
+  671  git log --oneline --decorate --graph --all
+  672  git status
+  673  git push --all
+  674  git push --tags
+  675  git fetch --all
+  676  git fetch --tags
+  677  cd ..
+  678  cd 
+  679  cd eclipse-dicas/
+  680  git status
+  681  git diff
+  682  git diff --staged
+  683  git diff --cached
+  684  git diff HEAD
+  685  git diff
+  686  git commit -am 'remocao de linha historico com erro... '
+  687  git push
+  688  sudo -i
+  689  exit
+  690  sudo -i
+  691  exit
+  692  sudo -i
+  693  exit
+  694  ssh root@ns3.augusto.eti.br
+  695  sudo -i
+  696  exit
+  697  sudo -i
+  698  exit
+  699  sudo -i
+  700  exit
+  701  sudo -i
+  702  exit
+  703  ssh root@ns3.augusto.eti.br
+  704  exit
+  705  sudo -i
+  706  exit
+  707  sudo -i
+  708  exit
+  709  df -h
+  710  sudo -i
+  711  exit
+  712  sudo -i
+  713  exit
+  714  ssh root@ns3.augusto.eti.br
+  715  sudo -i
+  716  exit
+  717  sudo -i
+  718  exit
+  719  cd musicas/
+  720  pwd
+  721  ls
+  722  cd Bolero/
+  723  ls
+  724  ls *.jpg
+  725  cd ..
+  726  find . -type f -name *.jpg -exec rm -rf {} \;
+  727  sudo -i
+  728  exit
+  729  cd /home/dancar/carlinhos-araujo/
+  730  ls
+  731  rm -rf musicas
+  732  sudo -i
+  733  exit
+  734  cd
+  735  ls -ltra
+  736  vi .gitconfig 
+  737  git lol
+  738  exit
+  739  cd /java/
+  740  cd algaworks/
+  741  ls
+  742  cd curso-fundamentos-java-e-orientacao-a-objetos/
+  743  ls
+  744  git status
+  745  git remote --v
+  746  git remote --vv
+  747  git remote -vv
+  748  git fetch --all
+  749  cd ..
+  750  ls -ltra
+  751  cd baeldung/
+  752  ls
+  753  cd ..
+  754  ls
+  755  cd in28minutes/
+  756  ls
+  757  cd SpringMvcStepByStep/
+  758  ls
+  759  git status
+  760  git remote -vv
+  761  git remote add in28minutes https://github.com/in28minutes/SpringMvcStepByStep
+  762  git remote -vv
+  763  git fetch --all
+  764  git lol
+  765  git log --oneline --decorate --graph --all
+  766  git merge origin
+  767  git log --oneline --decorate --graph --all
+  768  bash
+  769  git lol
+  770  git log --oneline --decorate --graph --all
+  771  git lola
+  772  git status
+  773  git log --oneline --decorate --graph --all
+  774  git push origin master
+  775  cd ..
+  776  ls
+  777  cd SpringIn28Minutes/
+  778  git status
+  779  git remote -v
+  780  git remote add in28minutes https://github.com/in28minutes?tab=repositories
+  781  git remote -v
+  782  git fetch --all
+  783  vi .git/config 
+  784  git fetch --all
+  785  git lola
+  786  git merge origin
+  787  git lola
+  788  git push origin
+  789  cd ..
+  790  ls
+  791  git clone https://github.com/in28minutes/SpringIn28Minutes
+  792  git clone git@github.com:luiz158/JavaWebApplicationStepByStep.git
+  793  cd JavaWebApplicationStepByStep/
+  794  git remote add in28minutes https://github.com/in28minutes/JavaWebApplicationStepByStep
+  795  git remote -v
+  796  git fetch --all
+  797  git lola
+  798  cd ..
+  799  ls
+  800  git clone git@github.com:luiz158/RealWorldWebApplicationWithServletsAndJspIn28Minutes.git
+  801  cd RealWorldWebApplicationWithServletsAndJspIn28Minutes/
+  802  git romote add in28minutes https://github.com/in28minutes/RealWorldWebApplicationWithServletsAndJspIn28Minutes
+  803  git remote add in28minutes https://github.com/in28minutes/RealWorldWebApplicationWithServletsAndJspIn28Minutes
+  804  git remote -vv
+  805  git fetch --all
+  806  git status
+  807  git lola
+  808  cd ..
+  809  ls
+  810  git clone git@github.com:luiz158/BasicWebServletsIn28Minutes.git
+  811  cd BasicWebServletsIn28Minutes/
+  812  git remote add in28minutes https://github.com/in28minutes/BasicWebServletsIn28Minutes
+  813  git fetch --al
+  814  git lola
+  815  cd ..
+  816  cd algaworks/
+  817  ls
+  818  git clone git@github.com:luiz158/curso-sistemas-web-com-spring-javascript-bootstrap.git
+  819  cd curso-sistemas-web-com-spring-javascript-bootstrap/
+  820  git remote
+  821  git remote add algaworks https://github.com/algaworks/curso-sistemas-web-com-spring-javascript-bootstrap
+  822  git fetch --al
+  823  git fetch --all
+  824  git lola
+  825  cd ..
+  826  git clone https://github.com/algaworks/curso-sistemas-web-com-spring-javascript-bootstrap
+  827  cd curso-sistemas-web-com-spring-javascript-bootstrap/
+  828  ls
+  829  ls ..
+  830  cd ..
+  831  git clone git@github.com:luiz158/primeira-oficina-de-spring-framework-projeto-wine.git
+  832  cd primeira-oficina-de-spring-framework-projeto-wine/
+  833  git remote add algaworks https://github.com/algaworks/primeira-oficina-de-spring-framework-projeto-wine
+  834  git fetch --all
+  835  git lola
+  836  git remote add renlih https://github.com/renlih/primeira-oficina-de-spring-framework-projeto-wine
+  837  git fetch --all
+  838  git lola
+  839  git checkout -a renlih-postgresql
+  840  git checkout -e renlih-postgresql
+  841  git checkout -help
+  842  git checkout --help
+  843  git checkout -b renlih-postgresql
+  844  git status
+  845  git branch -vv
+  846  git status
+  847  git lola
+  848  git merge renlih/master 
+  849  git status
+  850  git lola
+  851  git push origin --all
+  852  git branch --all
+  853  git lola
+  854  cd ..
+  855  git clone git@github.com:luiz158/spring-boot-postgres-sample.git
+  856  git remote add caroem https://github.com/caroem/spring-boot-postgres-sample
+  857  git remote -vv
+  858  ls
+  859  cd spring-boot-postgres-sample/
+  860  git remote add caroem https://github.com/caroem/spring-boot-postgres-sample
+  861  git fetch --all
+  862  git lola
+  863  git remote add paulvi https://github.com/paulvi/spring-boot-postgres-sample
+  864  git remote add proximus85 https://github.com/proximus85/spring-boot-postgres-sample
+  865  git remote add villshub https://github.com/willshub/spring-boot-postgres-sample
+  866  git remote add upstream https://github.com/AlgiersJUG/spring-boot-postgres-sample
+  867  git fetch --all
+  868  git lola
+  869  git status
+  870  git lola
+  871  git remote
+  872  git checkout -b merge-every
+  873  git lola
+  874  git merge caroem/patch-1
+  875  git status
+  876  git diff
+  877  git merge paulvi/patch-1
+  878  git status
+  879  git dif
+  880  git diff
+  881  git lola
+  882  git diff f7aa79f..a8f6b52
+  883  git lola
+  884  git push origin merge-every
+  885  git lola
+  886  git diff 0d24809..a8f6b52
+  887  git status
+  888  git lola
+  889  git diff 0d24809..f7aa79f
+  890  git lola
+  891  git checkout master
+  892  git lola
+  893  git checkout -b proximus85-master
+  894  git merge proximus85/master
+  895  git status
+  896  git push origin proximus85-master 
+  897  git lola
+  898  git status
+  899  git checkout master
+  900  git checkout -b villshub-master
+  901  git merge villshub/master 
+  902  git status
+  903  git lola
+  904  git push origin villshub-master 
+  905  git lola
+  906  git checkout master 
+  907  git lola
+  908  git checkou -b development
+  909  git checkou -e development
+  910  git checkout -b development
+  911  git lola
+  912  git merge villshub/master 
+  913  git status
+  914  git dif
+  915  git diff
+  916  git lola
+  917  git merge proximus85/master 
+  918  git status
+  919  vi src/main/resources/config/dev/application.properties 
+  920  git status
+  921  git add src/main/resources/config/dev/application.properties 
+  922  git status
+  923  git lola
+  924  git commit -m 'merge proximus85 and vilshub...'
+  925  git lola
+  926  git merge merge-every 
+  927  git status
+  928  vi src/main/resources/config/dev/application.properties 
+  929  git status
+  930  git add src/main/resources/config/dev/application.properties 
+  931  git 
+  932  git status
+  933  git commit -m 'merge off everything.......'
+  934  git lola
+  935  git status
+  936  git push origin development 
+  937  git lola
+  938  git branch -vv
+  939  git fetch --all
+  940  git status
+  941  git branch
+  942  git branch -vv
+  943  git branch -a
+  944  find | application.pro
+  945  find | grep application.pro
+  946  vi src/main/resources/config/dev/application.properties 
+  947  vi src/test/resources/config/application.properties 
+  948  git status
+  949  git ad src/main/resources/config/dev/application.properties
+  950  git add src/main/resources/config/dev/application.properties
+  951  git add src/test/resources/config/application.properties 
+  952  git status
+  953  git commit -m 'database config for test and main...'
+  954  git status
+  955  git lol
+  956  git push origin development 
+  957  git lol
+  958  git status
+  959  mvn clean package
+  960  vim /java/algaworks/spring-boot-postgres-sample/src/main/java/org/jug/algeria/controller/HomeController.java
+  961  java -version
+  962  sudo -i
+  963  mvn clean package
+  964  mvn -DskipTests=true clean package
+  965  ls -ltra
+  966  cat Procfile 
+  967  ls target/
+  968  vi README.md pom.xml .editorconfig 
+  969  git status
+  970  git add pom.xml 
+  971  vi .gitignore 
+  972  git status
+  973  git add .gitignore 
+  974  git commit -am 'java 8 required...'
+  975  git push origin development 
+  976  git lola
+  977  git status
+  978  cd ..
+  979  ls
+  980  sudo -i
+  981  cd /java/algaworks/
+  982  ls
+  983  cd curso-sistemas-web-com-spring-javascript-bootstrap/
+  984  ls
+  985  cd 15.19-corrigindo-bug-na-pesquisa/
+  986  ls
+  987  cd brewer/
+  988  ls
+  989  mvn clean package
+  990  vi pom.xml 
+  991  mvn clean package
+  992  git status
+  993  git add pom.xml 
+  994  git status
+  995  git commit -m 'ultima versao spring... '
+  996  git lola
+  997  git push origin master
+  998  git lola
+  999  cd ..
+ 1000  git fetch --all
+ 1001  sudo -i
+ 1002  cd alg
+ 1003  cd /java/algaworks/
+ 1004  ls
+ 1005  cd curso-sistemas-web-com-spring-javascript-bootstrap/
+ 1006  git fetch --all
+ 1007  git lola
+ 1008  git remote add casa luiz@ns3.augusto.eti.br:/home/curso-sistemas-web-com-spring-javascript-bootstrap-CASA/.git
+ 1009  git fetch casa
+ 1010  git lola
+ 1011  git remote add git-casa git@ns3.augusto.eti.br:/home/git/curso-spring-algaworks
+ 1012  git remote
+ 1013  git fetch git-casa
+ 1014  git lola
+ 1015  git merge casa/master
+ 1016  git lola
+ 1017  history > history-casa.txt
